@@ -42,7 +42,7 @@ export const Intro = () => {
                             quality="95"
                             priority={true}
                             title="João Gabriel de Lima Póvoa"
-                            className='h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl rotate-90 pointer-events-none'
+                            className='h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl pointer-events-none'
                         />
                     </motion.div>
                     <motion.span
