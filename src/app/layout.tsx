@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 
+import { Analytics } from "@vercel/analytics/react"
 import { Header } from "@/components/header";
 import { ActiveSectionContextProvider } from "@/contexts/active-section-context";
 import { Footer } from "@/components/footer";
 import { Toaster } from "react-hot-toast";
 import { ThemeSwitch } from "@/components/theme-switch";
 import ThemeContextProvider from "@/contexts/theme-context";
-
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -33,6 +33,7 @@ export default function RootLayout({
 
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
+            <Analytics />
             <Header />
             {children}
             <Footer />
