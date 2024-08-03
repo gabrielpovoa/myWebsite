@@ -36,7 +36,7 @@ export const Contact = () => {
                 <a className="underline" href="https://wa.me/5551990140347?text=Ol%C3%A1%2C%20Jo%C3%A3o.%20%0ATudo%20bem%3F" target='_blank'>
                     WhatsApp
                 </a>{" "}
-               or by the <a classname="underline" href="mailto:gabrielpovoa.f@gmail.com">E-mail Address</a>
+               or by the <a className="underline" href="mailto:gabrielpovoa.f@gmail.com">E-mail Address</a>
 
             </p>
 
