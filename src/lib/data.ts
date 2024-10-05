@@ -51,7 +51,7 @@ export const experiencesData = [
     description:
       "My graduation degree is still in progress.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023",
+    date: "2023 - 🚀",
   },
   {
     title: "Full-Stack Developer",
@@ -67,7 +67,15 @@ export const experiencesData = [
     description:
       "One of my amazing experiences as a web developer I was working extensively with WordPress, some Laravel, and Vue.js. Here, I developed larger projects like Nora Teixeira, Avanti, Rossi, Baldo, and assisted in refactoring Redemac. One of my pleasures of working here was building campaigns like Prasuperar and Empresa Gaúcha, where we found a way to help our state and people who need donations.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - 2024",
+  },
+  {
+    title: "Front End Jr Developer at Agência Digital Fox3",
+    location: "Porto Alegre, RS (On-Site)",
+    description:
+      "I migrated to this company to deepen my knowledge of WordPress. Since then, I’ve developed numerous projects for amazing and large companies, such as Ze Pneus, and refactored Italinea Class Moveis. Additionally, I’ve provided maintenance for various existing and legacy systems & sites, including Pixels Pub and others built on Magento. I was also hired to migrate some systems to React and Laravel, so I’m continuously expanding my skill set.",
+    icon: React.createElement(FaReact),
+    date: "2024 - present",
   },
 ] as const;
 
