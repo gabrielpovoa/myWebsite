@@ -15,6 +15,9 @@ import CoffiShop from "../../public/CoffiShop.png";
 import TurismoAgencyYT from "../../public/TurismoAgencyYT.png";
 import urna from "../../public/urna.png";
 import movie from "../../public/movie.png";
+import ze from  "../../public/ze-pneus.png";
+import italinea from  "../../public/italineaclassmoveis.png";
+import clubInfluencia from  "../../public/clube-influencia-ativa.png";
 
 
 export const links = [
@@ -87,6 +90,30 @@ export const projectsData = [
       "A project that was supposed to be only a prototype, made with mates from the university.",
     tags: ["React", "TypeScript", "Next.js", "shadcn-ui", "Tailwind", "ZOD", "React Hook Form", "WhatsApp API"],
     imageUrl: sushi,
+  },
+  {
+    title: "Ze Pneus",
+    url: "https://zepneus.com.br/",
+    description:
+      "One of the projects I rebuild from scratch on the company I currently work.",
+    tags: ["PHP", "JavaScript", "Ajax", "WordPress", "Git & Github", "Elementor Pro", "CF7", "WhatsApp API"],
+    imageUrl: ze,
+  },
+  {
+    title: "Italinea Class Móveis",
+    url: "https://italineaclassmoveis.com.br/",
+    description:
+      "A legacy website where it wasn't reponsive, so I rebuild with a new layout and colors, but maintaining the structure. I turn it responsive for all kind of screen and finishi within two days",
+    tags: ["PHP", "JavaScript","WordPress", "Elementor Pro", "WhatsApp API"],
+    imageUrl: italinea,
+  },
+  {
+    title: "Clube Fluência Ativa",
+    url: "#",
+    description:
+      "A landing page for an English Teacher; With that one I developed other one: Domine o Inglês",
+    tags: ["PHP", "JavaScript","WordPress", "Elementor Pro", "WhatsApp API"],
+    imageUrl: clubInfluencia,
   },
   {
     title: "Rats movie",
@@ -191,6 +218,9 @@ export const skillsData = [
   "GitLab",
   "GitFlow",
   "Wordpress",
+  "Elementor Pro",
+  "Ajax",
+  "FileZilla",
   "PHP",
   "Styled-Components",
   "Shadcn/UI",
