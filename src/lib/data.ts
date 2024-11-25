@@ -15,6 +15,11 @@ import CoffiShop from "../../public/CoffiShop.png";
 import TurismoAgencyYT from "../../public/TurismoAgencyYT.png";
 import urna from "../../public/urna.png";
 import movie from "../../public/movie.png";
+import masterAi from "../../public/master-ai.png";
+import evo from "../../public/evo.png";
+import orisha from "../../public/orisha.png";
+
+
 import ze from  "../../public/ze-pneus.png";
 import italinea from  "../../public/italineaclassmoveis.png";
 import clubInfluencia from  "../../public/clube-influencia-ativa.png";
@@ -84,6 +89,30 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Learning how to use Chat GPT",
+    url: "https://master-ai-use.vercel.app/",
+    description:
+      "A simple SPA designed to demonstrate how artificial intelligence works, teach effective prompt crafting, and guide users on how to maximize its potential.",
+    tags: ["React", "TypeScript", "Next.js", "shadcn-ui", "Tailwind", ],
+    imageUrl: masterAi,
+  },
+  {
+    title: "Practice: Refactoring an WP site",
+    url: "https://refactor-evo-one.vercel.app/",
+    description:
+      "I decided to refactor a random website and chose Evo One. I rebuilt this website using Next.js.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", ],
+    imageUrl: evo,
+  },
+  {
+    title: "Orisha 📿❤️🗝️",
+    url: "https://orixalizese.vercel.app/Home",
+    description:
+      "A website dedicated to promoting the Yoruba culture in Rio Grande do Sul, focusing on raising awareness about the Orishas and their significance.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", ],
+    imageUrl: orisha,
+  },
+  {
     title: "Sushi",
     url: "https://gabrieldelsushi.vercel.app/",
     description:
@@ -91,30 +120,30 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "shadcn-ui", "Tailwind", "ZOD", "React Hook Form", "WhatsApp API"],
     imageUrl: sushi,
   },
-  {
-    title: "Ze Pneus",
-    url: "https://zepneus.com.br/",
-    description:
-      "One of the projects I rebuild from scratch on the company I currently work.",
-    tags: ["PHP", "JavaScript", "Ajax", "WordPress", "Git & Github", "Elementor Pro", "CF7", "WhatsApp API"],
-    imageUrl: ze,
-  },
-  {
-    title: "Italinea Class Móveis",
-    url: "https://italineaclassmoveis.com.br/",
-    description:
-      "A legacy website where it wasn't reponsive, so I rebuild with a new layout and colors, but maintaining the structure. I turn it responsive for all kind of screen and finishi within two days",
-    tags: ["PHP", "JavaScript","WordPress", "Elementor Pro", "WhatsApp API"],
-    imageUrl: italinea,
-  },
-  {
-    title: "Clube Fluência Ativa",
-    url: "#",
-    description:
-      "A landing page for an English Teacher; With that one I developed other one: Domine o Inglês",
-    tags: ["PHP", "JavaScript","WordPress", "Elementor Pro", "WhatsApp API"],
-    imageUrl: clubInfluencia,
-  },
+  // {
+  //   title: "Ze Pneus",
+  //   url: "https://zepneus.com.br/",
+  //   description:
+  //     "One of the projects I rebuild from scratch on the company I currently work.",
+  //   tags: ["PHP", "JavaScript", "Ajax", "WordPress", "Git & Github", "Elementor Pro", "CF7", "WhatsApp API"],
+  //   imageUrl: ze,
+  // },
+  // {
+  //   title: "Italinea Class Móveis",
+  //   url: "https://italineaclassmoveis.com.br/",
+  //   description:
+  //     "A legacy website where it wasn't reponsive, so I rebuild with a new layout and colors, but maintaining the structure. I turn it responsive for all kind of screen and finishi within two days",
+  //   tags: ["PHP", "JavaScript","WordPress", "Elementor Pro", "WhatsApp API"],
+  //   imageUrl: italinea,
+  // },
+  // {
+  //   title: "Clube Fluência Ativa",
+  //   url: "#",
+  //   description:
+  //     "A landing page for an English Teacher; With that one I developed other one: Domine o Inglês",
+  //   tags: ["PHP", "JavaScript","WordPress", "Elementor Pro", "WhatsApp API"],
+  //   imageUrl: clubInfluencia,
+  // },
   {
     title: "Rats movie",
     url: "https://github.com/gabrielpovoa/RnLoginView?tab=readme-ov-file",
