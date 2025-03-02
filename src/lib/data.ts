@@ -18,6 +18,7 @@ import movie from "../../public/movie.png";
 import masterAi from "../../public/master-ai.png";
 import evo from "../../public/evo.png";
 import orisha from "../../public/orisha.png";
+import login from '../../public/login-php.png';
 
 
 import ze from  "../../public/ze-pneus.png";
@@ -74,25 +75,41 @@ export const experiencesData = [
     location: "Porto Alegre, RS (Remote)",
     description:
       "One of my amazing experiences as a web developer I was working extensively with WordPress, some Laravel, and Vue.js. Here, I developed larger projects like Nora Teixeira, Avanti, Rossi, Baldo, and assisted in refactoring Redemac. One of my pleasures of working here was building campaigns like Prasuperar and Empresa Gaúcha, where we found a way to help our state and people who need donations.",
-    icon: React.createElement(FaReact),
-    date: "2023 - 2024",
+      icon: React.createElement(CgWorkAlt),
+      date: "2023 - 2024",
   },
   {
     title: "Front End Jr Developer at Agência Digital Fox3",
     location: "Porto Alegre, RS (On-Site)",
     description:
       "I migrated to this company to deepen my knowledge of WordPress. Since then, I’ve developed numerous projects for amazing and large companies, such as Ze Pneus, and refactored Italinea Class Moveis. Additionally, I’ve provided maintenance for various existing and legacy systems & sites, including Pixels Pub and others built on Magento. I was also hired to migrate some systems to React and Laravel, so I’m continuously expanding my skill set.",
-    icon: React.createElement(FaReact),
-    date: "2024 - present",
+      icon: React.createElement(CgWorkAlt),
+      date: "2024 - 11/2024",
+  },
+  {
+    title: "Assitente de Suporte at Able",
+    location: "Porto Alegre, RS (Remote)",
+    description:
+      "Suporte ao Ciente, Atendimento em multicanais e abertura de chamados, pequenas ajudas em treinamento de novos colaboradores.",
+      icon: React.createElement(CgWorkAlt),
+      date: "11/2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
+    title: "Signup/Login Form PHP & JS",
+    url: "https://github.com/gabrielpovoa/form-php",
+    description:
+      "I built a signup and login system using PHP and JavaScript with three views and implemented JS API requests.",
+    tags: ["PHP", "JAVASCRIPT", "API", "CSS"],
+    imageUrl: login,
+  },
+  {
     title: "Learning how to use Chat GPT",
     url: "https://master-ai-use.vercel.app/",
     description:
-      "A simple SPA designed to demonstrate how artificial intelligence works, teach effective prompt crafting, and guide users on how to maximize its potential.",
+      "A web application designed to demonstrate how artificial intelligence works and how to maximize its potential.",
     tags: ["React", "TypeScript", "Next.js", "shadcn-ui", "Tailwind", ],
     imageUrl: masterAi,
   },
@@ -232,6 +249,7 @@ export const projectsData = [
     tags: ["REACT", "TYPESCRIPT", "API", "Styled-Components"],
     imageUrl: movie,
   },
+  
 ] as const;
 
 export const skillsData = [
