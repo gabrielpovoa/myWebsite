@@ -19,7 +19,9 @@ import masterAi from "../../public/master-ai.png";
 import evo from "../../public/evo.png";
 import orisha from "../../public/orisha.png";
 import login from '../../public/login-php.png';
-
+import cnn from '../../public/cnnScrapper-golang.png';
+import restApi  from '../../public/restApi-golang.png';
+import gallery from '../../public/gallery-nodejs.png';
 
 import ze from  "../../public/ze-pneus.png";
 import italinea from  "../../public/italineaclassmoveis.png";
@@ -90,13 +92,37 @@ export const experiencesData = [
     title: "Assitente de Suporte at Able",
     location: "Porto Alegre, RS (Remote)",
     description:
-      "Suporte ao Ciente, Atendimento em multicanais e abertura de chamados, pequenas ajudas em treinamento de novos colaboradores.",
+      "Provided technical support to internal users through multiple channels, managed ticket creation, assisted in training new employees, and resolved customer issues and inquiries.",
       icon: React.createElement(CgWorkAlt),
-      date: "11/2024 - present",
+      date: "11/2024 - Present",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Gallery API - Node.Js",
+    url: "https://github.com/gabrielpovoa/fitness-gallery",
+    description:
+      "Node.js and Express-based application designed to manage and showcase fitness galleries. It allows users to create, view, and manage galleries.",
+    tags: ["Node.Js", "Typscript", "Javascript", "Express", "Prisma", "MySQL",],
+    imageUrl: gallery,
+  },
+  {
+    title: "To do Rest API - Golang",
+    url: "https://github.com/gabrielpovoa/apiGolang",
+    description:
+      "A simple RESTful API built with Go, designed to manage tasks efficiently. This API allows you to create, read, update, and delete (CRUD).",
+    tags: ["Golang", "Api", "Postman",],
+    imageUrl: restApi,
+  },
+  {
+    title: "CNN Scrappr - Golang",
+    url: "https://github.com/gabrielpovoa/cnn-scrapper",
+    description:
+      "This is a simple Go program that scrapes news titles from the CNN Brasil homepage and saves them into a local JSON file.",
+    tags: ["Golang", "Json", "Scrapper",],
+    imageUrl: cnn,
+  },
   {
     title: "Signup/Login Form PHP & JS",
     url: "https://github.com/gabrielpovoa/form-php",
