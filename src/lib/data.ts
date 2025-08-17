@@ -1,6 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
 import sushi from "../../public/sushi.png";
@@ -18,14 +17,16 @@ import movie from "../../public/movie.png";
 import masterAi from "../../public/master-ai.png";
 import evo from "../../public/evo.png";
 import orisha from "../../public/orisha.png";
-import login from '../../public/login-php.png';
-import cnn from '../../public/cnnScrapper-golang.png';
-import restApi  from '../../public/restApi-golang.png';
-import gallery from '../../public/gallery-nodejs.png';
+import swiftlypark from '../../public/swiftlyPark.png';
+import prontoja from '../../public/prontoja.png';
+import LaveNoForte from '../../public/lplavenoforte.png';
 
-import ze from  "../../public/ze-pneus.png";
-import italinea from  "../../public/italineaclassmoveis.png";
-import clubInfluencia from  "../../public/clube-influencia-ativa.png";
+//import cnn from '../../public/cnnScrapper-golang.png';
+//import restApi  from '../../public/restApi-golang.png';
+//import gallery from '../../public/gallery-nodejs.png';
+//import ze from  "../../public/ze-pneus.png";
+//import italinea from  "../../public/italineaclassmoveis.png";
+//import clubInfluencia from  "../../public/clube-influencia-ativa.png";
 
 
 export const links = [
@@ -65,7 +66,7 @@ export const experiencesData = [
     date: "2023 - 🚀",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Full-Stack Developer as Contaagil",
     location: "Canoas - RS (Remote)",
     description:
       "I worked as a full-stack developer and support analyst for 7 months. It was my first experience, where I learned a lot about Git, Git Flow, PHP, and the Scrum methodology. I also upskilled my front-end skills.",
@@ -73,7 +74,7 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
-    title: "Front End Jr Developer",
+    title: "Front End Jr Developer at Santins",
     location: "Porto Alegre, RS (Remote)",
     description:
       "One of my amazing experiences as a web developer I was working extensively with WordPress, some Laravel, and Vue.js. Here, I developed larger projects like Nora Teixeira, Avanti, Rossi, Baldo, and assisted in refactoring Redemac. One of my pleasures of working here was building campaigns like Prasuperar and Empresa Gaúcha, where we found a way to help our state and people who need donations.",
@@ -86,7 +87,7 @@ export const experiencesData = [
     description:
       "I migrated to this company to deepen my knowledge of WordPress. Since then, I’ve developed numerous projects for amazing and large companies, such as Ze Pneus, and refactored Italinea Class Moveis. Additionally, I’ve provided maintenance for various existing and legacy systems & sites, including Pixels Pub and others built on Magento. I was also hired to migrate some systems to React and Laravel, so I’m continuously expanding my skill set.",
       icon: React.createElement(CgWorkAlt),
-      date: "2024 - 11/2024",
+      date: "08/2024 - 11/2024",
   },
   {
     title: "Assitente de Suporte at Able",
@@ -94,42 +95,42 @@ export const experiencesData = [
     description:
       "Provided technical support to internal users through multiple channels, managed ticket creation, assisted in training new employees, and resolved customer issues and inquiries.",
       icon: React.createElement(CgWorkAlt),
-      date: "11/2024 - Present",
+      date: "11/2024 - 05/2025",
+  },
+  {
+    title: "Support Analyst at Teletoner",
+    location: "Porto Alegre, RS (On-Site)",
+    description:
+        "Provided L1/L2 support for hardware, software, and networks; configured and managed print solutions (DocMps, PJA, PrintSafe); developed internal Python tools and Power BI dashboards to automate workflows and enhance efficiency.",
+    icon: React.createElement(CgWorkAlt),
+    date: "06/2025 - Now",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Gallery API - Node.Js",
-    url: "https://github.com/gabrielpovoa/fitness-gallery",
+    title: "SwiftlyPark",
+    url: "https://github.com/gabrielpovoa/swiftlypark/",
     description:
-      "Node.js and Express-based application designed to manage and showcase fitness galleries. It allows users to create, view, and manage galleries.",
-    tags: ["Node.Js", "Typscript", "Javascript", "Express", "Prisma", "MySQL",],
-    imageUrl: gallery,
+      "PHP based project, parking management (Cars,Bikes, Trucks and Apps as Uber).",
+    tags: ["PHP", "Javascript", "MVC", "Composer", "MySQL",],
+    imageUrl: swiftlypark,
   },
   {
-    title: "To do Rest API - Golang",
-    url: "https://github.com/gabrielpovoa/apiGolang",
+    title: "ProntoJá",
+    url: "https://prontoja.vercel.app/",
     description:
-      "A simple RESTful API built with Go, designed to manage tasks efficiently. This API allows you to create, read, update, and delete (CRUD).",
-    tags: ["Golang", "Api", "Postman",],
-    imageUrl: restApi,
+        "Platform for hiring specialized technical services — such as land clearing, communication tower maintenance, aviation lighting installation, general repairs, and automatic gate installation.",
+    tags: ["NextJS", "ChatGPT", "TailwindCSS", "Typescript"],
+    imageUrl: prontoja,
   },
   {
-    title: "CNN Scrappr - Golang",
-    url: "https://github.com/gabrielpovoa/cnn-scrapper",
+    title: "Lave no Forte",
+    url: "https://lave-no-forte.vercel.app/",
     description:
-      "This is a simple Go program that scrapes news titles from the CNN Brasil homepage and saves them into a local JSON file.",
-    tags: ["Golang", "Json", "Scrapper",],
-    imageUrl: cnn,
-  },
-  {
-    title: "Signup/Login Form PHP & JS",
-    url: "https://github.com/gabrielpovoa/form-php",
-    description:
-      "I built a signup and login system using PHP and JavaScript with three views and implemented JS API requests.",
-    tags: ["PHP", "JAVASCRIPT", "API", "CSS"],
-    imageUrl: login,
+        "Next.js and TypeScript web app that integrates ChatGPT for automated content generation, styled with TailwindCSS to showcase modern AI-powered front-end development.",
+    tags: ["NextJS", "ChatGPT", "TailwindCSS", "Typescript"],
+    imageUrl: LaveNoForte,
   },
   {
     title: "Learning how to use Chat GPT",
@@ -302,4 +303,8 @@ export const skillsData = [
   "MySQL",
   "Redux",
   "Express",
+  "Linux",
+  "Print",
+  "Active Directory - AD",
+  "Power BI"
 ] as const;
