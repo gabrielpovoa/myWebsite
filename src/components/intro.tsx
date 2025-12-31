@@ -20,8 +20,8 @@ export const Intro = () => {
 
     return (
         <section
-        id="home"
-        ref={ref}
+            id="home"
+            ref={ref}
             className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
         >
             <div className="flex items-center justify-center">
@@ -75,10 +75,14 @@ export const Intro = () => {
                 animate={{ opacity: 1, y: 0 }}
             >
                 <span className="font-bold">Hello, I'm João.</span> I'm a{" "}
-                <span className="font-bold">full-stack developer</span> with{" "}
-                <span className="font-bold">2 years</span> of experience. I enjoy
-                building <span className="italic">sites & apps</span>. My focus is{" "}
-                <span className="underline">React (Next.js), React Native and PHP</span>.
+                <span className="font-bold">front-end & DevOps engineer</span> with{" "}
+                <span className="font-bold">3 years</span> of experience. I enjoy building{" "}
+                <span className="italic">modern web interfaces</span> and{" "}
+                <span className="italic">containerized applications</span>. My focus is on{" "}
+                <span className="underline">
+                    Next.js and Docker
+                </span>.
+
             </motion.h1>
 
             <motion.div

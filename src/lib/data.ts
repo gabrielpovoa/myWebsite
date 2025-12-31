@@ -3,23 +3,23 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 
 import sushi from "../../public/sushi.png";
-import mobile from "../../public/mobile.png";
-import vegetation from "../../public/vegetation.png";
-import synonym from "../../public/synonym.png";
+// import mobile from "../../public/mobile.png";
+// import vegetation from "../../public/vegetation.png";
+// import synonym from "../../public/synonym.png";
 import firebaseGalery from "../../public/firebaseGalery.jpg";
-import multform from "../../public/multform.jpg";
+// import multform from "../../public/multform.jpg";
 import devPetshop from "../../public/devPetShop.png";
-import restaurantFood from "../../public/restaurantFood.png";
-import CoffiShop from "../../public/CoffiShop.png";
-import TurismoAgencyYT from "../../public/TurismoAgencyYT.png";
-import urna from "../../public/urna.png";
-import movie from "../../public/movie.png";
+// import restaurantFood from "../../public/restaurantFood.png";
+// import CoffiShop from "../../public/CoffiShop.png";
+// import TurismoAgencyYT from "../../public/TurismoAgencyYT.png";
+// import urna from "../../public/urna.png";
+// import movie from "../../public/movie.png";
 import masterAi from "../../public/master-ai.png";
 import evo from "../../public/evo.png";
-import orisha from "../../public/orisha.png";
+// import orisha from "../../public/orisha.png";
 import swiftlypark from '../../public/swiftlyPark.png';
 import prontoja from '../../public/prontoja.png';
-import LaveNoForte from '../../public/lplavenoforte.png';
+// import LaveNoForte from '../../public/lplavenoforte.png';
 
 //import cnn from '../../public/cnnScrapper-golang.png';
 //import restApi  from '../../public/restApi-golang.png';
@@ -124,14 +124,14 @@ export const projectsData = [
     tags: ["NextJS", "ChatGPT", "TailwindCSS", "Typescript"],
     imageUrl: prontoja,
   },
-  {
-    title: "Lave no Forte",
-    url: "https://lave-no-forte.vercel.app/",
-    description:
-        "Next.js and TypeScript web app that integrates ChatGPT for automated content generation, styled with TailwindCSS to showcase modern AI-powered front-end development.",
-    tags: ["NextJS", "ChatGPT", "TailwindCSS", "Typescript"],
-    imageUrl: LaveNoForte,
-  },
+  // {
+  //   title: "Lave no Forte",
+  //   url: "https://lave-no-forte.vercel.app/",
+  //   description:
+  //       "Next.js and TypeScript web app that integrates ChatGPT for automated content generation, styled with TailwindCSS to showcase modern AI-powered front-end development.",
+  //   tags: ["NextJS", "ChatGPT", "TailwindCSS", "Typescript"],
+  //   imageUrl: LaveNoForte,
+  // },
   {
     title: "Learning how to use Chat GPT",
     url: "https://master-ai-use.vercel.app/",
@@ -148,14 +148,14 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind", ],
     imageUrl: evo,
   },
-  {
-    title: "Orisha 📿❤️🗝️",
-    url: "https://orixalizese.vercel.app/Home",
-    description:
-      "A website dedicated to promoting the Yoruba culture in Rio Grande do Sul, focusing on raising awareness about the Orishas and their significance.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", ],
-    imageUrl: orisha,
-  },
+  // {
+  //   title: "Orisha 📿❤️🗝️",
+  //   url: "https://orixalizese.vercel.app/Home",
+  //   description:
+  //     "A website dedicated to promoting the Yoruba culture in Rio Grande do Sul, focusing on raising awareness about the Orishas and their significance.",
+  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", ],
+  //   imageUrl: orisha,
+  // },
   {
     title: "Sushi",
     url: "https://gabrieldelsushi.vercel.app/",
@@ -188,30 +188,30 @@ export const projectsData = [
   //   tags: ["PHP", "JavaScript","WordPress", "Elementor Pro", "WhatsApp API"],
   //   imageUrl: clubInfluencia,
   // },
-  {
-    title: "Rats movie",
-    url: "https://github.com/gabrielpovoa/RnLoginView?tab=readme-ov-file",
-    description:
-      "A react native app to see movies that contains rats",
-    tags: ["React Native", "TypeScript", "Expo", "Styled Components"],
-    imageUrl: mobile,
-  },
-  {
-    title: "Vegetation",
-    url: "https://visionary-puffpuff-3d52d3.netlify.app/",
-    description:
-      "Website created using React to write the code and chatgpt to generate data informatin",
-    tags: ["React", "Styled-Components", "ChatGPT", "JSON", "VITE"],
-    imageUrl: vegetation,
-  },
-  {
-    title: "Synonyms web app",
-    url: "https://638a0f0cf62a072546df95b4--fastidious-longma-67c81f.netlify.app/",
-    description:
-      "A public web app for quick English Synonym",
-    tags: ["React", "TypeScript", "API", "Styled-Components"],
-    imageUrl: synonym,
-  },
+  // {
+  //   title: "Rats movie",
+  //   url: "https://github.com/gabrielpovoa/RnLoginView?tab=readme-ov-file",
+  //   description:
+  //     "A react native app to see movies that contains rats",
+  //   tags: ["React Native", "TypeScript", "Expo", "Styled Components"],
+  //   imageUrl: mobile,
+  // },
+  // {
+  //   title: "Vegetation",
+  //   url: "https://visionary-puffpuff-3d52d3.netlify.app/",
+  //   description:
+  //     "Website created using React to write the code and chatgpt to generate data informatin",
+  //   tags: ["React", "Styled-Components", "ChatGPT", "JSON", "VITE"],
+  //   imageUrl: vegetation,
+  // },
+  // {
+  //   title: "Synonyms web app",
+  //   url: "https://638a0f0cf62a072546df95b4--fastidious-longma-67c81f.netlify.app/",
+  //   description:
+  //     "A public web app for quick English Synonym",
+  //   tags: ["React", "TypeScript", "API", "Styled-Components"],
+  //   imageUrl: synonym,
+  // },
   {
     title: "Firebase Gallery",
     url: "https://github.com/gabrielpovoa/gallery-firebase-app",
@@ -220,14 +220,14 @@ export const projectsData = [
     tags: ["React", "TypeScript", "FireBase", "UUID", "Styled-Components"],
     imageUrl: firebaseGalery,
   },
-  {
-    title: "Multi-Form",
-    url: "https://github.com/gabrielpovoa/gallery-firebase-app",
-    description:
-      "Multipart form designed by b7web",
-    tags: ["React", "TypeScript", "Styled-Components", "ContextAPI", "React Router Dom"],
-    imageUrl: multform,
-  },
+  // {
+  //   title: "Multi-Form",
+  //   url: "https://github.com/gabrielpovoa/gallery-firebase-app",
+  //   description:
+  //     "Multipart form designed by b7web",
+  //   tags: ["React", "TypeScript", "Styled-Components", "ContextAPI", "React Router Dom"],
+  //   imageUrl: multform,
+  // },
   {
     title: "DevPetShop",
     url: "https://github.com/gabrielpovoa/node-ts-canil",
@@ -236,46 +236,46 @@ export const projectsData = [
     tags: ["Node", "TypeScript", "css", "MVC", "Express", "Mustache"],
     imageUrl: devPetshop,
   },
-  {
-    title: "Restaurant",
-    url: "https://gabrielpovoa.github.io/restaurantFood/",
-    description:
-      "Retaurant Website all developed in html and css3 usind slide library",
-    tags: ["HTML5", "CSS3", "JavaScript", "SlickSlider", "JQuery"],
-    imageUrl: restaurantFood,
-  },
-  {
-    title: "CoffiShop",
-    url: "https://gabrielpovoa.github.io/CoffiShop/",
-    description:
-      "Coffee Shop was a website that I created when I was improving my web skills, I made it watching videos on youtube.",
-    tags: ["HTML5", "CSS3", "JavaScript"],
-    imageUrl: CoffiShop,
-  },
-  {
-    title: "TurismoAgencyYT",
-    url: "https://gabrielpovoa.github.io/TurismoAgencyYT/",
-    description:
-      "WebPage made in HTML5, CSS3, and Vanilla JS overall. I've been feeling some difficulties in JS and this construction helped a lot to improve some skills, and the responsivity in CSS, I'll put a gif below to show how it looks",
-    tags: ["HTML5", "CSS3", "JavaScript"],
-    imageUrl: TurismoAgencyYT,
-  },
-  {
-    title: "Urna Votação",
-    url: "https://github.com/gabrielpovoa/Urna-B7WEB",
-    description:
-      "Creation of the electronic voting machine made as an exercise by B7WEB.",
-    tags: ["HTML5", "CSS3", "JavaScript"],
-    imageUrl: urna,
-  },
-  {
-    title: "Movies currently showing",
-    url: "https://thunderous-fox-07b3db.netlify.app/",
-    description:
-      "Movies on cinema",
-    tags: ["REACT", "TYPESCRIPT", "API", "Styled-Components"],
-    imageUrl: movie,
-  },
+  // {
+  //   title: "Restaurant",
+  //   url: "https://gabrielpovoa.github.io/restaurantFood/",
+  //   description:
+  //     "Retaurant Website all developed in html and css3 usind slide library",
+  //   tags: ["HTML5", "CSS3", "JavaScript", "SlickSlider", "JQuery"],
+  //   imageUrl: restaurantFood,
+  // },
+  // {
+  //   title: "CoffiShop",
+  //   url: "https://gabrielpovoa.github.io/CoffiShop/",
+  //   description:
+  //     "Coffee Shop was a website that I created when I was improving my web skills, I made it watching videos on youtube.",
+  //   tags: ["HTML5", "CSS3", "JavaScript"],
+  //   imageUrl: CoffiShop,
+  // },
+  // {
+  //   title: "TurismoAgencyYT",
+  //   url: "https://gabrielpovoa.github.io/TurismoAgencyYT/",
+  //   description:
+  //     "WebPage made in HTML5, CSS3, and Vanilla JS overall. I've been feeling some difficulties in JS and this construction helped a lot to improve some skills, and the responsivity in CSS, I'll put a gif below to show how it looks",
+  //   tags: ["HTML5", "CSS3", "JavaScript"],
+  //   imageUrl: TurismoAgencyYT,
+  // },
+  // {
+  //   title: "Urna Votação",
+  //   url: "https://github.com/gabrielpovoa/Urna-B7WEB",
+  //   description:
+  //     "Creation of the electronic voting machine made as an exercise by B7WEB.",
+  //   tags: ["HTML5", "CSS3", "JavaScript"],
+  //   imageUrl: urna,
+  // },
+  // {
+  //   title: "Movies currently showing",
+  //   url: "https://thunderous-fox-07b3db.netlify.app/",
+  //   description:
+  //     "Movies on cinema",
+  //   tags: ["REACT", "TYPESCRIPT", "API", "Styled-Components"],
+  //   imageUrl: movie,
+  // },
   
 ] as const;
 
@@ -291,20 +291,26 @@ export const skillsData = [
   "Git",
   "GitLab",
   "GitFlow",
-  "Wordpress",
+  "WordPress",
   "Elementor Pro",
   "Ajax",
   "FileZilla",
   "PHP",
+  "Python",
+  "AI Prompting",
   "Styled-Components",
   "Shadcn/UI",
-  "Tailwind",
+  "Tailwind CSS",
   "Framer Motion",
+  "Zod",
+  "Axios",
+  "TanStack Query",
   "MySQL",
   "Redux",
   "Express",
+  "Docker",
+  "Docker Compose",
   "Linux",
-  "Print",
-  "Active Directory - AD",
-  "Power BI"
+  "Zendesk",
+  "Power BI",
 ] as const;
